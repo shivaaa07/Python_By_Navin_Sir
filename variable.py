@@ -22,11 +22,19 @@ num1, num2 = num2, num1     # Multi Line Variable Define
 
 # Global Variable
 
+"""
 def msg():
     var1 = "World"
     print("Hello " + user_name)
     print(var1)
-msg()
+"""
+# msg()
 
-print(var1)
+var1 = """
+        Hello
+        World
+        How are
+        YOu
+"""
 
+print(var1[-20])
