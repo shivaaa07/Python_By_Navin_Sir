@@ -37,4 +37,24 @@ var1 = """
         YOu
 """
 
-print(var1[-20])
+# print(var1[-20])
+
+# List in Python (Other Programming Language it's call Array)
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# print(nums[1:4])
+# print(nums[:7])
+
+values = ["Shiva", 5, 10.34, "Sahani", "Jyoti", 10]
+
+# values[3:4] = ["Das"]
+
+# values.pop(2)
+
+# values.remove(5)
+
+# values.append("Shivkumar")
+
+# values.clear()
+
+print(values)
